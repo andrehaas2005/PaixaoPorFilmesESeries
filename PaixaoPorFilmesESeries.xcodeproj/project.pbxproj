@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		795E5D432DE69F0700F05215 /* ModuloServiceSeries in Frameworks */ = {isa = PBXBuildFile; productRef = 795E5D422DE69F0700F05215 /* ModuloServiceSeries */; };
+		795E5D472DE69F6C00F05215 /* ModuloServiceMovie in Frameworks */ = {isa = PBXBuildFile; productRef = 795E5D462DE69F6C00F05215 /* ModuloServiceMovie */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		795E5D0C2DE67CB600F05215 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795E5D432DE69F0700F05215 /* ModuloServiceSeries in Frameworks */,
+				795E5D472DE69F6C00F05215 /* ModuloServiceMovie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +119,8 @@
 			);
 			name = PaixaoPorFilmesESeries;
 			packageProductDependencies = (
+				795E5D422DE69F0700F05215 /* ModuloServiceSeries */,
+				795E5D462DE69F6C00F05215 /* ModuloServiceMovie */,
 			);
 			productName = PaixaoPorFilmesESeries;
 			productReference = 795E5CF52DE67CB400F05215 /* PaixaoPorFilmesESeries.app */;
@@ -195,6 +204,10 @@
 			);
 			mainGroup = 795E5CEC2DE67CB400F05215;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				795E5D442DE69F4600F05215 /* XCLocalSwiftPackageReference "../ModuloServiceSeries" */,
+				795E5D452DE69F6C00F05215 /* XCLocalSwiftPackageReference "../ModuloServiceMovie" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 795E5CF62DE67CB400F05215 /* Products */;
 			projectDirPath = "";
@@ -560,6 +573,28 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		795E5D442DE69F4600F05215 /* XCLocalSwiftPackageReference "../ModuloServiceSeries" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ModuloServiceSeries;
+		};
+		795E5D452DE69F6C00F05215 /* XCLocalSwiftPackageReference "../ModuloServiceMovie" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ModuloServiceMovie;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		795E5D422DE69F0700F05215 /* ModuloServiceSeries */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuloServiceSeries;
+		};
+		795E5D462DE69F6C00F05215 /* ModuloServiceMovie */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuloServiceMovie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 795E5CED2DE67CB400F05215 /* Project object */;
 }
